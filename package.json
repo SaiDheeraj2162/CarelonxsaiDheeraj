@@ -1,0 +1,16 @@
+{
+  "name": "carelon-complete-first-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Interactive, synthetic-data prototype for the Complete-First prior-authorization operating model.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node --check script.js && node --check core.mjs && node --check scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "verify": "npm run check && npm run test && npm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
