@@ -1,3 +1,3 @@
-# Icons
+# Product diagrams
 
-The operational icons are intentionally inlined in `script.js` as small, accessible SVG paths. This keeps the static prototype dependency-free and lets icon color inherit from each control's state. Add only reusable, standalone icon files to this directory.
+This directory contains the six original SVG diagrams rendered by the prototype: the operating-model hero, request lifecycle, routing map, pend-desk flow, API sequence, and AI release gate. They are vector-native and are safe to resize in the static application.
